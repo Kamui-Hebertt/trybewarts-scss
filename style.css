@@ -25,23 +25,21 @@ header{
   }
 
 
-  main{display: flex;
+  main{
+    margin: 5%;
+    display: flex;
     border: 1px solid black;
 }
 
   #evaluation-form{display: flex;
-    
-
       width:675px;
-    border: 1px solid black;
+    
     flex-direction: column;
 
 }
 
-#trybewarts-forms-logo{height: 500px;
-    
+#trybewarts-forms-logo{height: 500px;    
     order: 1;
-
 }
 
 footer{border: 1px solid black;
@@ -54,3 +52,8 @@ order: 2;
 flex-direction: row;
 margin-top: 1%;
 }
+
+/* input{
+    align-self: flex-start;
+    margin-left: 5%;
+} */
