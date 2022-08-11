@@ -29,11 +29,13 @@ header{
     border: 1px solid black;
 }
 
-  .evaluation-form{display: flex;
-    
+  #evaluation-form{display: flex;
+
       width:675px;
     border: 1px solid black;
     flex-direction: column
 }
 
 #trybewarts-forms-logo{height: 500px;}
+
+footer{border: 1px solid black;}
