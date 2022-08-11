@@ -29,7 +29,9 @@ header{
     border: 1px solid black;
 }
 
-  .evaluation-form{width:675px;
+  .evaluation-form{display: flex;
+    
+      width:675px;
     border: 1px solid black;
     flex-direction: column
 }
