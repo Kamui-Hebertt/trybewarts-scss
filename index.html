@@ -25,7 +25,7 @@
         </form>
     </header>
     <main>
-
+        <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
         <form action="" method="get" id="evaluation-form">
             <input type="text" id="input-name" placeholder="nome">
             <input type="text" id="input-lastname" placeholder="sobrenome">
@@ -41,14 +41,16 @@
             <label for="family">Qual sua família?
 
             </label>
+            <div class="row">
             <input type="radio" name="family" value="Frontend">Frontend
             <input type="radio" name="family" value="Backend">Backend
             <input type="radio" name="family" value="Fullstack">Fullstack
-
+            </div>
             <label id="label-content" for="">
 
                 Qual conteúdo você está com mais vontade de aprender?
             </label>
+            <div class="row">
             <input type="checkbox" class="subject" value="HoFs">HoFs
             <input type="checkbox" class="subject" value="Jest">Jest
             <input type="checkbox" class="subject" value="Promises">Promises
@@ -56,11 +58,11 @@
             <input type="checkbox" class="subject" value="SQL">SQL
             <input type="checkbox" class="subject" value="Python">Python
 
-
-            <label for="rate" id="labe-rate">
+            </div>
+            <label for="rate" id="label-rate">
                 Como você avalia a Trybewarts?
             </label>
-
+            <div class="row">
             <input type="radio" name="rate" value="1">1
             <input type="radio" name="rate" value="2">2
             <input type="radio" name="rate" value="3">3
@@ -72,7 +74,7 @@
             <input type="radio" name="rate" value="9">9
             <input type="radio" name="rate" value="10">10
 
-
+            </div>
 
 
             <label for="">Deixe seu comentário:</label>
@@ -82,16 +84,17 @@
             <input type="checkbox" id="agreement" required>
             <button type="submit" id="submit-btn">Enviar</button>
 
-            <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
+            
         </form>
 
 
 
 
-        <footer>Direitos reservados à Trybewarts©</footer>
+        
 
     </main>
     <script src="script.js"></script>
+    <footer>Direitos reservados à Trybewarts©</footer>
 </body>
 
 </html>

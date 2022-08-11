@@ -30,12 +30,27 @@ header{
 }
 
   #evaluation-form{display: flex;
+    
 
       width:675px;
     border: 1px solid black;
-    flex-direction: column
+    flex-direction: column;
+
 }
 
-#trybewarts-forms-logo{height: 500px;}
+#trybewarts-forms-logo{height: 500px;
+    
+    order: 1;
 
-footer{border: 1px solid black;}
+}
+
+footer{border: 1px solid black;
+display: flex;
+align-self: flex-end;
+order: 2;
+}
+
+.row{display: flex;
+flex-direction: row;
+margin-top: 1%;
+}
