@@ -15,10 +15,10 @@ let agreement = document.querySelector("#agreement");
 
 
 function disable (){
-  
-
- submitBtn.removeAttribute('disabled');
- 
+  if (agreement.checked) {
+    submitBtn.disabled = false;
+  }else {
+    submitBtn.disabled = true;
+  }
 };
-
 agreement.addEventListener('click', disable);
