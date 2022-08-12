@@ -1,24 +1,22 @@
-const senha = document.querySelector('#login');
-senha.addEventListener('click', function login(event) {
-  const x = document.querySelector(".trybewarts-login")
-  if (x['email'].value === 'tryber@teste.com' && x['password'].value === '123456') {
-   return alert('Olá, Tryber!');
-  }else {
-    return alert('Email ou senha inválidos.');
+function login() {
+  const x = document.querySelector('.trybewarts-login');
+  if (x.email.value === 'tryber@teste.com' && x.password.value === '123456') {
+    return alert('Olá, Tryber!');
   }
-});
+  return alert('Email ou senha inválidos.');
+}
 
+const senha = document.querySelector('#login');
+senha.addEventListener('click', login);
 
-let submitBtn = document.querySelector("#submit-btn");
-let agreement = document.querySelector("#agreement");
+const submitBtn = document.querySelector('#submit-btn');
+const agreement = document.querySelector('#agreement');
 
-
-
-function disable (){
+function disable() {
   if (agreement.checked) {
     submitBtn.disabled = false;
-  }else {
+  } else {
     submitBtn.disabled = true;
   }
-};
+}
 agreement.addEventListener('click', disable);
