@@ -7,3 +7,18 @@ senha.addEventListener('click', function login(event) {
     return alert('Email ou senha inválidos.');
   }
 });
+
+
+let submitBtn = document.querySelector("#submit-btn");
+let agreement = document.querySelector("#agreement");
+
+
+
+function disable (){
+  
+
+ submitBtn.removeAttribute('disabled');
+ 
+};
+
+agreement.addEventListener('click', disable);
