@@ -1,0 +1,154 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 2px solid black;
+}
+
+.trybewarts-header-logo {
+  width: 6vw;
+  height: 15vh;
+  margin-left: 3vw;
+  border: 2px solid black;
+}
+
+#trybewarts-forms-logo {
+  height: 35vw;
+  border: 2px solid rgb(163, 16, 16);
+  margin-right: 10vw;
+}
+
+header {
+  background-color: rgb(50, 167, 145);
+  border: 1px solid rgb(153, 7, 238);
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.trybewarts-login {
+  display: flex;
+  flex-direction: column;
+  width: 17vw;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25vw;
+  border: 1px solid black;
+}
+
+.trybewarts-login input {
+  width: 15vw;
+  height: 3vh;
+  border-radius: 5px;
+}
+
+.trybewarts-login input:focus {
+  outline-color: rgb(91, 65, 236);
+}
+
+#trybewarts-header-title {
+  height: 6vh;
+  margin-left: 34vw;
+  color: rgb(238, 230, 238);
+}
+
+.trybewarts-login button {
+  margin-top: 3.5vh;
+  width: 15vw;
+  height: 4vh;
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 120vh;
+  gap: 100px;
+  border: 1px solid rgb(148, 48, 48);
+}
+
+form {
+  border: 1px solid rgb(107, 26, 96);
+}
+
+input {
+  border: 2px solid rgb(50, 167, 145);
+  border-radius: 5px;
+  height: 3vh;
+}
+
+.row {
+  margin-top: 20px;
+  border: 2px solid rgb(50, 167, 145);
+  margin-left: 60px;
+  height: 10vh;
+  width: 32vw;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+textarea {
+  border: 1px solid black;
+  resize: none;
+  width: 20vw;
+  height: 15vh;
+}
+
+.comentary {
+  margin-top: 30px;
+  border: 1px solid black;
+  width: 40vw;
+  height: 27vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+#label-family {
+  border: 1px solid black;
+  margin-left: 5vw;
+  margin-top: 15px;
+}
+
+#submit-btn {
+  border: 1px solid black;
+  width: 8vw;
+  height: 6vh;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.radios {
+  border: 2px solid rgb(50, 167, 145);
+  height: 10vh;
+  width: 32vw;
+  margin-left: 4.4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#label-content {
+  margin-left: 5vw;
+}
+
+footer {
+  width: 20vw;
+  height: 5vh;
+}/*# sourceMappingURL=main.css.map */

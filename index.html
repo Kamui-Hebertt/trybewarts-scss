@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="/styles/main.css" >
     <title>Document</title>
 
 </head>
@@ -41,11 +42,11 @@
                     <option value="Pytherina" id="pytherina-house">Pytherina</option>
                 </select>
             </div>
-            
+            <div class="radios">
             Frontend<input type="radio" name="family" value="Frontend">
             Backend<input type="radio" name="family" value="Backend">
             Fullstack<input type="radio" name="family" value="FullStack">
-            
+            </div>
             <label id="label-content" for="">
 
                 Qual conteúdo você está com mais vontade de aprender?
@@ -76,19 +77,19 @@
 
             </div>
 
-
+             <div class="comentary">
             <label for="" class="textarea">Deixe seu comentário:</label>
             <textarea name="" id="" cols="30" rows="10" maxlength="500"></textarea>
 
             <label for="" id="label-infos">Você concorda com o uso das informações acima?</label>
             <input type="checkbox" id="agreement" required>
             <button type="submit" id="submit-btn" disabled>Enviar</button>
-
+        </div>
 
         </form>
 
     </main>
-    <script src="script.js"></script>
+    <script src="/styles/main.scss"></script>
     <footer>Direitos reservados à Trybewarts©</footer>
 </body>
 
