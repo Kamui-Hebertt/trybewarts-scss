@@ -1,0 +1,80 @@
+
+
+@media screen and (max-width: 820px) {
+  body {
+    background-color: aqua;
+
+  }
+  #evaluation-form{
+    margin-right: 35vw;
+    margin-top: 20px;
+  }
+
+  #trybewarts-forms-logo{
+    display: none;
+  }
+
+  input{
+    
+  }
+
+  textarea {
+    width: 50vw;
+    
+    
+  }
+ main {
+  display: flex;
+  
+
+ }
+  #input-name {
+    height: 3.5vh;
+  }
+  #input-lastname{
+    height: 3.5vh;
+  }
+  .row {
+    display: flex;
+    
+    border: 1px solid transparent;
+    height: 20vh;
+  }
+
+   #house {
+    height: 4vh;
+    width: 45vw;
+    border: 2px solid $bluewart;
+   }
+
+   #submit-btn{
+    width: 60px;
+    height: 10vh;
+   }
+  .label{
+    border: 1px solid black;
+  }
+
+  footer{
+    margin-top: 50vh;
+  }
+
+  .comentary{
+    border: 1px solid black;
+ 
+  }
+
+  .trybewarts-header-logo{
+    margin-right: 10vw;
+    width: 80px;
+  }
+
+  header {
+    width: 100vw;
+  }
+
+  .radios {
+    border: 1px solid black;
+  }
+ 
+}

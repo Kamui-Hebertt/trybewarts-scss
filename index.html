@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="/styles/main.css" >
     <title>Document</title>
 
@@ -26,13 +26,14 @@
         </form>
     </header>
     <main>
-        <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
+        <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="trybe">
         <form action="" method="get" id="evaluation-form">
             <div class="row">
                 <input type="text" id="input-name" placeholder="Nome">
                 <input type="text" id="input-lastname" placeholder="Sobrenome">
             </div>
-            <label for="family" id="label-family">Qual sua família?</label>
+            <label for="family" id="label-family">
+                <p class="label">Qual sua família?</p></label>
             <div class="row">
                 <input type="email" id="input-email" placeholder="Email">
                 <select name="" id="house">
@@ -49,7 +50,7 @@
             </div>
             <label id="label-content" for="">
 
-                Qual conteúdo você está com mais vontade de aprender?
+              <p class="label">Qual conteúdo você está com mais vontade de aprender?</p>
             </label>
             <div class="row">
                 <input type="checkbox" class="subject" value="HoFs">HoFs
@@ -61,7 +62,7 @@
 
             </div>
             <label for="rate" id="label-rate">
-                Como você avalia a Trybewarts?
+               <p class="label">Como você avalia a Trybewarts?</p>
             </label>
             <div class="row">
                 <input type="radio" name="rate" value="1">1
@@ -78,11 +79,12 @@
             </div>
 
              <div class="comentary">
-            <label for="" class="textarea">Deixe seu comentário:</label>
+            <label for="" class="textarea"><p class="label2">Deixe seu comentário:</p></label>
             <textarea name="" id="" cols="30" rows="10" maxlength="500"></textarea>
-
+            <div class="agreement">
             <label for="" id="label-infos">Você concorda com o uso das informações acima?</label>
             <input type="checkbox" id="agreement" required>
+            </div>
             <button type="submit" id="submit-btn" disabled>Enviar</button>
         </div>
 
